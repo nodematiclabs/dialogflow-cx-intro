@@ -1,0 +1,560 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 606
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 606
+connectors:
+  - id: Dashed Straight Connectorm7Jg4
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 309
+      y: 283
+    targetPoint:
+      x: 309
+      y: 310
+    sourceID: Dialogflow CXOnybE
+    targetID: Google Cloud PlatformVcRrc
+    addInfo:
+      viewConnector: 0
+    zIndex: 2
+  - id: Dashed Orthogonal ConnectorOgTde
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 459
+      y: 233
+    targetPoint:
+      x: 513
+      y: 170
+    sourceID: Dialogflow CXOnybE
+    targetID: EmailF0nTZ
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+  - id: Dashed Orthogonal ConnectorxiL0Q
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 459
+      y: 233
+    targetPoint:
+      x: 513
+      y: 299
+    sourceID: Dialogflow CXOnybE
+    targetID: TwiliobfVE7
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dialogflow_cx_Black_87_kkskm9.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dialogflow_cx_p1fh5y.png);"></div><div
+        class="c-text"><div class="c-title">Dialogflow CX</div><div
+        class="c-short-description">Building advanced, AI-powered conversational
+        interfaces and virtual agents</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Dialogflow CXOnybE
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Dialogflow CX
+        shortDescription: Building advanced, AI-powered conversational interfaces and
+          virtual agents
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Dialogflow CX
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Dialogflow CX
+      editableName: Dialogflow CX
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Dialogflow CX
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dialogflow_cx_p1fh5y.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dialogflow_cx__044448_cvpwju.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/dialogflow_cx_Black_87_kkskm9.png
+      color: "#3871e0"
+      controlText: Dialogflow CX
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 309
+    offsetY: 233
+    zIndex: 0
+    outEdges:
+      - Dashed Straight Connectorm7Jg4
+      - Dashed Orthogonal ConnectorOgTde
+      - Dashed Orthogonal ConnectorxiL0Q
+  - shape:
+      type: HTML
+      content: "<div class=\"c-html\" style=\"background-color: #3871e0;\"><div
+        class=\"c-container\"><div class=\"c-image-primary\"
+        style=\"background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1686897630/sds_l\
+        ogos/Google_Cloud_Platform_V2_Black_87_t3ijkn.png);\"></div><div
+        class=\"c-image-original\" style=\"background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1686897630/sds_l\
+        ogos/Google_Cloud_Platform_V2_k0j2om.png);\"></div><div
+        class=\"c-text\"><div class=\"c-title\">Google Cloud Platform</div><div
+        class=\"c-short-description\">Developing, deploying, and managing
+        scalable applications and services on Google's infrastructure</div><div
+        class=\"c-bottom\"><div class=\"c-hr p-mb-1\"></div><div
+        class=\"c-title-bottom\">Google Cloud
+        Platform</div></div></div></div></div>"
+    id: Google Cloud PlatformVcRrc
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud Platform
+        shortDescription: Developing, deploying, and managing scalable applications and
+          services on Google's infrastructure
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Cloud Platform
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud Platform
+      editableName: Google Cloud Platform
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Deployment Target
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Deployment Target
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Cloud Platform
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1686897630/sds_logos/Google_Cloud_Platform_V2_k0j2om.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1686897630/sds_logos/Google_Cloud_Platform_V2__044448_wcvymi.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1686897630/sds_logos/Google_Cloud_Platform_V2_Black_87_t3ijkn.png
+      color: "#3871e0"
+      controlText: Google Cloud Platform
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 309
+    offsetY: 360
+    zIndex: 1
+    inEdges:
+      - Dashed Straight Connectorm7Jg4
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #976a02;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Email_Black_87_xlvbmn.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Email_976a02_h5kj7b.png);"></div><div
+        class="c-text"><div class="c-title">Email</div><div
+        class="c-short-description">Sending and receiving messages digitally
+        across networks</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Email</div></div></div></div></div>'
+    id: EmailF0nTZ
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Email
+        shortDescription: Sending and receiving messages digitally across networks
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Email
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Email
+      editableName: Email
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Notification Target
+          type: Storage
+          portsIn:
+            put: notification
+            get: fetch
+          portsOut:
+            stored: notification
+        - name: Action Trigger
+          type: Processor
+          portsIn:
+            job: trigger
+          portsOut:
+            job: action
+          serviceTime:
+            exp:
+              lambda: AverageTimeToTriggerAction
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Notification Target
+        - type: Processor
+          status: Idle
+          name: Action Trigger
+          AverageTimeToTriggerAction: 1
+      name: Email
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Email_976a02_h5kj7b.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Email_Black_t1ealv.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Email_Black_87_xlvbmn.png
+      controlText: Email
+      color: "#976a02"
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 663
+    offsetY: 170
+    zIndex: 3
+    inEdges:
+      - Dashed Orthogonal ConnectorOgTde
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #DE2C41;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1684700900/sds_logos/Twilio_Black_87_vvgcyn.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1684700900/sds_logos/Twilio_vwlw5x.png);"></div><div
+        class="c-text"><div class="c-title">Twilio</div><div
+        class="c-short-description">Building and integrating communication
+        services like voice, SMS, and video into applications</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Twilio</div></div></div></div></div>'
+    id: TwiliobfVE7
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Twilio
+        shortDescription: Building and integrating communication services like voice,
+          SMS, and video into applications
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Twilio
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Twilio
+      editableName: Twilio
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Store
+          type: Storage
+          portsIn:
+            put: data
+            get: fetch
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Data Store
+      name: Twilio
+      category: 8
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1684700900/sds_logos/Twilio_vwlw5x.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1684700900/sds_logos/Twilio__044448_qlrpxz.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1684700900/sds_logos/Twilio_Black_87_vvgcyn.png
+      color: "#DE2C41"
+      controlText: Twilio
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 663
+    offsetY: 299
+    zIndex: 4
+    inEdges:
+      - Dashed Orthogonal ConnectorxiL0Q
+selectedItems:
+  selectedObjects:
+    - shape:
+        type: HTML
+        content: '<div class="c-html" style="background-color: #976a02;"><div
+          class="c-container"><div class="c-image-primary"
+          style="background-image:
+          url(https://storage.googleapis.com/nodematic/sds_logos/Email_Black_87_xlvbmn.png);"></div><div
+          class="c-image-original" style="background-image:
+          url(https://storage.googleapis.com/nodematic/sds_logos/Email_976a02_h5kj7b.png);"></div><div
+          class="c-text"><div class="c-title">Email</div><div
+          class="c-short-description">Sending and receiving messages digitally
+          across networks</div><div class="c-bottom"><div class="c-hr
+          p-mb-1"></div><div
+          class="c-title-bottom">Email</div></div></div></div></div>'
+      id: EmailF0nTZ
+      addInfo:
+        functionView:
+          leadTime: 0
+          leadTimeSeconds: 0
+          processTime: 0
+          processTimeSeconds: 0
+          completeAndAccuratePerc: 0
+          activityRatio: 0
+          viewType: metrics
+          name: Email
+          shortDescription: Sending and receiving messages digitally across networks
+        economicView:
+          cpus: 0
+          memory: 0
+          storage: 0
+          networking: 0
+          accelerators: 0
+          other: 0
+          unknown: false
+          viewType: total
+          name: Email
+        status: N/A
+        size: sm
+        nodeType: html
+        title: Email
+        editableName: Email
+        type: component
+        id: ""
+        dynamicsViewSettings:
+          - name: Notification Target
+            type: Storage
+            portsIn:
+              put: notification
+              get: fetch
+            portsOut:
+              stored: notification
+          - name: Action Trigger
+            type: Processor
+            portsIn:
+              job: trigger
+            portsOut:
+              job: action
+            serviceTime:
+              exp:
+                lambda: AverageTimeToTriggerAction
+        dynamicsViews:
+          - type: Storage
+            status: Idle
+            name: Notification Target
+          - type: Processor
+            status: Idle
+            name: Action Trigger
+            AverageTimeToTriggerAction: 1
+        name: Email
+        category: 5
+        imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Email_976a02_h5kj7b.png
+        imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Email_Black_t1ealv.png
+        imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Email_Black_87_xlvbmn.png
+        controlText: Email
+        color: "#976a02"
+        selectedDynamicsView: 0
+      width: 300
+      height: 100
+      offsetX: 663
+      offsetY: 170
+      wrapper:
+        actualSize:
+          width: 300
+          height: 100
+        offsetX: 663
+        offsetY: 170
+      zIndex: 3
+      inEdges:
+        - Dashed Orthogonal ConnectorOgTde
+  width: 300
+  height: 100
+  offsetX: 663
+  offsetY: 170
